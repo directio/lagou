@@ -2,7 +2,7 @@
     "position" : [
         {   
             "id" : "1",
-            "src" : "../img/meidi.jpg",
+            "src" : "img/meidi.jpg",
             "title" : "美的集团IT",
             "position" : "资金系统应用架构师 [ 佛山 ]",
             "time" : "今天 10:31",
@@ -10,7 +10,7 @@
         },
         {
             "id" : "2",
-            "src" : "../img/meidi.jpg",
+            "src" : "img/meidi.jpg",
             "title" : "美的集团IT",
             "position" : "资金系统项目经理 [ 佛山 ]",
             "time" : "今天 10:31",
@@ -18,7 +18,7 @@
         },
         {
             "id" : "3",
-            "src" : "../img/aidou.png",
+            "src" : "img/aidou.png",
             "title" : "爱豆科技",
             "position" : "HTML5开发工程师 [ 上海 ]",
             "time" : "今天 09:40",
@@ -26,7 +26,7 @@
         },
         {
             "id" : "4",
-            "src" : "../img/xld.png",
+            "src" : "img/xld.png",
             "title" : "成都喜来达科技",
             "position" : "H5工程师 [ 成都 ]",
             "time" : "今天 09.12",
@@ -34,7 +34,7 @@
         },
         {
             "id" : "5",
-            "src" : "../img/qm.jpg",
+            "src" : "img/qm.jpg",
             "title" : "青木科技",
             "position" : "客服主管 [ 广州 ]",
             "time" : "今天 08.51",
@@ -42,7 +42,7 @@
         },
         {
             "id" : "6",
-            "src" : "../img/qm.jpg",
+            "src" : "img/qm.jpg",
             "title" : "青木科技",
             "position" : "客服组长 [ 广州 ]",
             "time" : "今天 08.51",
@@ -50,7 +50,7 @@
         },
         {
             "id" : "7",
-            "src" : "../img/zk.png",
+            "src" : "img/zk.png",
             "title" : "字客网",
             "position" : "深度学习开发工程师 [ 福州 ]",
             "time" : "今天 07.57",
@@ -58,7 +58,7 @@
         },
         {
             "id" : "8",
-            "src" : "../img/hc.png",
+            "src" : "img/hc.png",
             "title" : "卖好车",
             "position" : "产品经理（仓储物流） [ 杭州 ]",
             "time" : "今天 14.02",
@@ -66,7 +66,7 @@
         },
         {
             "id" : "9",
-            "src" : "../img/cb.jpg",
+            "src" : "img/cb.jpg",
             "title" : "koin",
             "position" : "平面设计 [ 福州 ]",
             "time" : "今天 07.57",
@@ -74,7 +74,7 @@
         },
         {
             "id" : "10",
-            "src" : "../img/gs.jpg",
+            "src" : "img/gs.jpg",
             "title" : "工商管理专修学院",
             "position" : "高校HTML5前端开发讲师",
             "time" : "今天 07.57",
@@ -82,7 +82,7 @@
         },
         {
             "id" : "11",
-            "src" : "../img/gs.jpg",
+            "src" : "img/gs.jpg",
             "title" : "工商管理专修学院",
             "position" : "Unity 3D讲师 [ 北京 ]",
             "time" : "今天 07.57",
@@ -90,7 +90,7 @@
         },
         {
             "id" : "12",
-            "src" : "../img/xld.png",
+            "src" : "img/xld.png",
             "title" : "成都喜来达科技",
             "position" : "H5工程师 [ 成都 ]",
             "time" : "今天 09.12",
@@ -98,7 +98,7 @@
         },
         {
             "id" : "13",
-            "src" : "../img/qm.jpg",
+            "src" : "img/qm.jpg",
             "title" : "青木科技",
             "position" : "客服主管 [ 广州 ]",
             "time" : "今天 08.51",

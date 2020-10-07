@@ -67,7 +67,7 @@ var vm = new Vue({
         }
     },
     created(){
-        fetch('../index.json').then((res) => res.json()).then((res) => {
+        fetch('./index.json').then((res) => res.json()).then((res) => {
             console.log(res);
             this.datalist = res.position;
         })

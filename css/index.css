@@ -1,0 +1,195 @@
+
+/* 头部 */
+header{
+    width: 100%;
+    height: 45px;
+    background: #00b38a;
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+    line-height: 45px;
+}
+/* 职位页 */
+/* 导航栏 */
+nav{
+    padding: 0 15px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    color: #555;
+    border-bottom: 1px solid #e8e8e8;
+}
+nav a{
+    padding: 0 20px;
+    background: #f5f5f5;
+    color: #00b38a;
+    border-radius: 15px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+/* 职位列表 */
+.ul1 li{
+    cursor: pointer;
+    padding: 14px;
+    border-bottom: 1px solid #e8e8e8;
+    align-items: center;
+    overflow: hidden;
+}
+.ul1 li .content{
+    float: left;
+}
+.ul1 .img{
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 15px;
+}
+.ul1 h3{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+.ul1 p{
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+.ul1 span{
+    color: #888;
+    font-size: 1rem;
+}
+.ul1 i{
+    font-style: normal;
+    color: #00b38a;
+    font-size: 1.6rem;
+    float: right;
+    line-height: 60px;
+}
+.more{
+    display: block;
+    width: 100%;
+    height: 50px;
+    font-size: 1.5rem;
+    background: #fafafa;
+    color: #333;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+section{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 30px;
+    padding-bottom: 90px;
+    color: #333;
+}
+.copy{
+    margin-bottom: 8px;
+}
+.active1{
+    color: #999;
+}
+
+/* 搜索页 */
+.search{
+    padding: 0 15px;
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.area{
+    width: 2%;
+    height: 45px;
+    font-size: 1.5rem;
+    float: left;
+    width: 88px;
+    border-right: 1px solid #e8e8e8;
+    color: #333;
+    cursor: pointer;
+}
+.area span{
+    font-size: 0.5rem;
+}
+.inputer{
+    width: 62%;
+    height: 25px;
+    border: none;
+    display: block;
+    padding: 10px 10px;
+    line-height: 25px;
+    color: #333;
+    margin: 0 0 0 5%;
+    font-size: 1.5rem;
+    float: left;
+    margin-left: 0;
+}
+.search button{
+    border: none;
+    height: 45px;
+    width: 6%;
+    background: white;
+    outline: none;
+}
+button span{
+    color: #d3d2d2;
+}
+
+/* 我的页 */
+.reg-login{
+    display: block;
+    cursor: pointer;
+    color: white;
+    width: 125px;
+    height: 45px;
+    text-align: center;
+    margin: 0 auto;
+    background: #1fc9a1;
+    margin-top: 40px;
+    line-height: 45px;
+    font-size: 1.4rem;
+}
+article{
+    margin-top: 40px;
+    padding: 0 8px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.div1{
+    width: 46%;
+    height: 86px;
+    line-height: 86px;
+    background: #1fc9a1;
+    text-align: center;
+    color: white;
+    font-size: 1.6rem;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* 底部 */
+footer{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    border-top: 1px solid #e8e8e8;
+    background: #f6f6f6;
+    color: #c2cfcc;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+    font-size: 1.6rem;
+    display: flex;
+}
+footer a{
+    flex: 1;
+    text-align: center;
+}
+.active{
+    color: #00b38a;
+    background: #e7f3f0;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <div id="app">
+        <header>拉勾网</header>
+        <component :is="getCurrent" :datalist="datalist"></component>
+        <footer>
+            <a @click="handleClick(tab.id)" v-for="tab in tabs" :class="{active:tab.id===current}">
+                <span :class="tab.icon"></span>
+                {{tab.value}}
+            </a>
+        </footer>
+    </div>
+    <!-- 职位页模板 -->
+    <script type="text/template" id="position">
+        <div>
+            <nav>
+                <span>10秒钟定制职位</span>
+                <a href="#">去登录</a>
+            </nav>
+            <ul class="ul1">
+                <li v-for="data in datalist.slice(0,num)" >
+                    <img :src="data.src" alt=""  class="img">
+                    <div class="content">
+                        <h3>{{data.title}}</h3>
+                        <p>{{data.position}}</p>
+                        <span>{{data.time}}</span>
+                    </div>
+                    <i>{{data.salary}}</i>
+                </li>
+            </ul>
+            <a class="more" v-if="num < datalist.length" @click="loadMore">加载更多</a>
+            <a class="more" v-else>没有更多了</a>
+            <section>
+                <p class="copy">&copy;2020 lagou.com, all right reserved</p>
+                <p>
+                    <span class="active1">移动版</span> ·
+                    <span>电脑版</span> ·
+                    <span @click="toTop()">回顶部</span>
+                </p>
+            </section>
+        </div>
+        
+    </script>
+    <!-- 搜索页模板 -->
+    <script type="text/template" id="search">
+        <div>
+            <div class="search">
+                <div class="area">全国
+                    <span class="iconfont icon-jiantou8"></span>
+                </div>
+                <input type="text" placeholder="搜索职位或公司" class="inputer">
+                <button>
+                    <span class="iconfont icon-search"></span>
+                </button>
+            </div>
+        </div>
+    </script>
+    <!-- 我的页模板 -->
+    <script type="text/template" id="mine">
+        <div>
+            <a class="reg-login">登录/注册</a>
+            <article>
+                <div class="div1">投递</div>
+                <div class="div1">面试</div>
+                <div class="div1">邀约</div>
+                <div class="div1">收藏</div>
+            </article>
+        </div>
+    </script>
+    <script src="../js/index.js"></script>
+</body>
+</html>
